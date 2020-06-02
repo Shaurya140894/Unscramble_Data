@@ -1,0 +1,24 @@
+Task 0:
+Each function performs performs only one operation regardless of the size of data.
+O(0n + 1) + O(0n + 1)
+Therefore, Complexity = O(1)
+
+Task 1:
+There are two functions, one of which contains for loop.
+O(1n + 1) + O(0n + 1)
+Therefore, Complexity = O(n)
+
+Task 2:
+There are two functions in all and both contain for loop.
+This gives the complexity of O(1n + 4) + O(1n + 3) = O(2n)
+Therefore, Complexity = O(n)
+
+Task 3:
+In this task I have used 7 functions in total. 6 of those functions consist of for loop making worst case to be O(7n).
+But I have also implemented .sorted() method which has complexity of O(n log n).
+Therefore, Complexity = O(n log n)
+
+Task 4:
+In this task I have used 3 functions. 2 of these functions have loops making worst case complexity to be O(2n).
+But in the last function I have implemented .sorted() method with complexity O(n log n).
+Therefore, Complexity = O(n log n)
